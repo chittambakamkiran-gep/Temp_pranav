@@ -1,0 +1,13 @@
+🎯 Generated Mappings
+✅ Mapping generated successfully!
+
+Explanation: The mapping logic uses numpy's where function to check for the availability of the 'name' field. If it is available, its value is returned; otherwise, np.nan is returned.
+
+Output Field: studentname
+Formula: np.where(input_fields['name'], input_fields['name'], np.nan)
+Input Fields Used: name
+Description: Returns the name of the student if available, otherwise NaN
+
+
+
+Please generate and accept mappings first.
